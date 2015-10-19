@@ -1,3 +1,28 @@
+# 0.6.2
+
+* Fix login issue with creator start command
+
+# 0.6.1
+
+* Fix missing cookies error in creator start command
+
+# 0.6.0
+
+* Add `creator:[id]` template option to `ionic start` command
+
+# 0.5.3
+
+* Fix localhost that got into npm version
+
+# 0.5.2
+
+* Various fixes to catch problems with package
+
+# 0.5.1
+
+* Add security command for managing Security Profiles.
+* Add package command for Ionic Package.
+
 # 0.4.1
 
 * Logging now done with `logging` module - using the node js winston logger.
@@ -19,6 +44,8 @@
 # 0.3.9
 
 * Refactor: Use winston logging library for log messages
+* Adding ionic-platform-web-client to the `ionic add` injection list
+* Updated config writes to handle both minified and non-minified versions of ionic-platform-web-client
 
 # 0.3.8
 
